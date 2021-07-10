@@ -1,0 +1,28 @@
+{
+  "name": "dinosaur-generator",
+  "version": "1.0.0",
+  "description": "Tutorial Youtube",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kannder83/node-dinosaur-generator.git"
+  },
+  "keywords": [],
+  "author": "kannder83 <kannder.ziur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kannder83/node-dinosaur-generator/issues"
+  },
+  "homepage": "https://github.com/kannder83/node-dinosaur-generator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
+}

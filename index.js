@@ -31,7 +31,7 @@ app.get("/dinoname", async (request, response) => {
 
   const dinoNameResponse = await fetchApi.json();
   console.log(dinoNameResponse);
-  response.json(dinoNameResponse);
+  return response.json(dinoNameResponse);
 });
 
 app.get("/dinoimage", async (request, response) => {
@@ -49,5 +49,5 @@ app.get("/dinoimage", async (request, response) => {
 
   const dinoImageResponse = await fetchApi.json();
   //console.log(dinoImageResponse);
-  response.json(dinoImageResponse);
+  return response.json(dinoImageResponse);
 });

@@ -1,11 +1,11 @@
-console.log("Carga correctamente");
+//console.log("Carga correctamente");
 
 const getDinoName = async () => {
   const response = await fetch("/dinoname");
   const data = await response.json();
   let dinoName = data[0].join(" ");
   document.querySelector("#dinoName").innerHTML = dinoName;
-  console.log(dinoName);
+  //console.log(dinoName);
 };
 
 const getDinoImage = async () => {
@@ -24,7 +24,7 @@ const getDinoImage = async () => {
   img.src = dinoImageUrl;
   img.alt = dinoAlt;
   document.querySelector("#img-content").appendChild(img);
-  console.log(dinoImageUrl);
+  //console.log(dinoImageUrl);
 };
 
 document.querySelector("#btnLoad").addEventListener("click", () => {

@@ -30,7 +30,7 @@ app.get("/dinoname", async (request, response) => {
   );
 
   const dinoNameResponse = await fetchApi.json();
-  console.log(dinoNameResponse);
+  //console.log(dinoNameResponse);
   return response.json(dinoNameResponse);
 });
 
